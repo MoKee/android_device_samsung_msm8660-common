@@ -57,9 +57,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioutils
 
-# GalaxyS2Settings
 PRODUCT_PACKAGES += \
-     GalaxyS2Settings \
      SamsungServiceMode
 
 ifeq ($(BOARD_HAVE_NFC),true)
